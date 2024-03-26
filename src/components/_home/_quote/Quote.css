@@ -1,0 +1,24 @@
+.quote-container {
+    background-color: rgb(218, 218, 218);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.line {
+    border: 1px rgba(79, 79, 79, 0.301) solid;
+    width: 100%;
+}
+
+.quote-container > a {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 1rem 2rem;
+    border-radius: var(--br-m);
+    font-size: var(--fs-700);
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+}
