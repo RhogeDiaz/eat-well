@@ -14,12 +14,25 @@
 .nav-container > button {
     aspect-ratio: 1.3/1;
     width: 3rem;
-    background-color: transparent;
-    border: 1px var(--gray-400) solid;
+    border: none;
     border-radius: var(--br-s);
     cursor: pointer;
+    transition: 50ms ease-in;
+}
+
+.nav-container > button:hover {
+    background-color: #000000;
+}
+
+.nav-container > button:hover > .burger-icon {
+    color: #fff;
+}
+
+.nav-container > button:active {
+    transform: scale(0.9);
 }
 
 .burger-icon {
     transform: scale(1.2);
+    transition: 50ms ease-in;
 }

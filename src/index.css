@@ -2,6 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 
+    color: var(--accent);
+    background-color: var(--primary);
+
     /* custom styles */
     --gray-400: rgba(0, 0, 0, 0.55);
     --br-s: 10px;
@@ -10,6 +13,9 @@
     --fs-500: 1rem;
     --fs-700: 1.25rem;
     --fs-900: 1.5rem;
+    --primary: #213547;
+    --secondary: #314f6a;
+    --accent: #ffffff;
 }
 
 /* @media (prefers-color-scheme: light) {

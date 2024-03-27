@@ -4,7 +4,7 @@ import { FaHamburger } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <div className='nav-container'>
-            <a href='/'>Eat Well</a>
+            <a href='/'>Eats Elite</a>
             <button><FaHamburger className='burger-icon' /></button>
         </div>
     )
