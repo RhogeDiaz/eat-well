@@ -37,7 +37,7 @@ const Home = () => {
     ]
 
     return (
-        <div className=' flex flex-col gap-16'>
+        <div className=' flex flex-col gap-16 transition'>
             <About image={about[0].image} title={about[0].title} description={about[0].description} />
             <Quote quote={quotes[0].quote} author={quotes[0].author} />
             <About image={about[1].image} title={about[1].title} description={about[1].description} />
