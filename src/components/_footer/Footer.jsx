@@ -1,7 +1,7 @@
 import { GiMeal } from "react-icons/gi";
 const Footer = () => {
     return (
-        <div className='p-4 flex justify-between'>
+        <div className='p-4 flex justify-between border-t'>
             <div className=" self-start flex flex-col">
                 <h1 className="font-bold text-2xl">
                     Eats Elite

@@ -21,6 +21,8 @@
     color: var(--accent);
     background-color: var(--primary);
 
+    scroll-behavior: smooth;
+
     /* custom styles */
     --gray-400: rgba(0, 0, 0, 0.55);
     --br-s: 10px;
