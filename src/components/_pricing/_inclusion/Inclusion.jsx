@@ -11,8 +11,10 @@ const Inclusion = ({ price }) => {
     ]
     return (
         <div className="p-4">
-            <h1 className="text-2xl">What’s included with your subscription</h1>
-            <div className="border-2 w-full"></div>
+            <div className="flex justify-center">
+                <h1 className="text-2xl text-center w-6/12">What’s included with your subscription</h1>
+            </div>
+            <div className="border-2 w-full mb-8"></div>
             <div className="flex justify-end">
                 <div className="border max-w-[10rem] aspect-square flex flex-col items-center justify-center gap-4 p-4">
                     <p className="text-center text-xl">Monthly Subscription</p>
