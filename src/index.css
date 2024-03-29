@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply font-bold bg-transparent border rounded-2xl border-solid py-4 px-8;
+    }
+    .navbar-button {
+        @apply aspect-video w-12 border-none rounded-lg cursor-pointer transition-all flex justify-center items-center active:scale-90 bg-[var(--secondary)] hover:bg-white;
+    }
+    .navbar-button-icon {
+        @apply text-white transition-all  group-hover:text-black;
+    }
+}
+
 :root {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;

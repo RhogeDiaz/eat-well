@@ -1,11 +1,10 @@
-import './Navbar.css'
 import { FaHamburger } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div className='nav-container'>
-            <a href='/'>Eats Elite</a>
-            <button><FaHamburger className='burger-icon' /></button>
+        <div className='flex justify-between p-3 items-center'>
+            <a className=' text-inherit font-bold text-2xl' href='/'>Eats Elite</a>
+            <button className='navbar-button group'><FaHamburger className='navbar-button-icon' /></button>
         </div>
     )
 }

@@ -1,4 +1,3 @@
-import './Companion.css'
 
 const Companion = () => {
     const For = [
@@ -17,17 +16,17 @@ const Companion = () => {
 
     ]
     return (
-        <div className='companion-page'>
-            <h1>Your companion for...</h1>
-            <div className="line"></div>
+        <div className='p-4 flex flex-col gap-6'>
+            <h1 className=" font-bold text-2xl">Your companion for...</h1>
+            <div className=" w-full border-2"></div>
             {For.map((For) => (
-                <div className='companion-container' key={For.title}>
-                    <h3>{For.title}</h3>
+                <div key={For.title}>
+                    <h3 className="font-bold text-xl">{For.title}</h3>
                     <p>{For.description}</p>
                 </div>
             ))}
-            <div className='companion-button-parent'>
-                <a href="/signup">Start free trial</a>
+            <div className='flex justify-center'>
+                <a className="button" href="/signup">Start free trial</a>
             </div>
         </div>
     )

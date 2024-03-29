@@ -1,14 +1,10 @@
-import './Closer.css'
-
 const Closer = () => {
     return (
         <div className='closer-page'>
-            <div className="call-to-action">
-                <h2>Ready to save time and money?</h2>
-                <p>Try it out risk free for 30 days. Cancel anytime. No strings attached!</p>
-                <div className='companion-button-parent'>
-                    <a href="/signup">Start a free trial </a>
-                </div>
+            <div className="bg-[var(--secondary)] p-8 flex flex-col items-center gap-4">
+                <h2 className='font-bold text-2xl'>Ready to save time and money?</h2>
+                <p className=' text-center w-full'>Try it out risk free for 30 days. Cancel anytime. No strings attached!</p>
+                <a className='button' href="/signup">Start a free trial </a>
             </div>
         </div>
     )

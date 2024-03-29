@@ -1,4 +1,3 @@
-import './Home.css'
 import cp from '../../assets/images/app-on-mobile.jpg'
 import lappy from '../../assets/images/app-on-laptop.jpg'
 import About from './_about/About'
@@ -38,7 +37,7 @@ const Home = () => {
     ]
 
     return (
-        <div className='home'>
+        <div className=' flex flex-col gap-16'>
             <About image={about[0].image} title={about[0].title} description={about[0].description} />
             <Quote quote={quotes[0].quote} author={quotes[0].author} />
             <About image={about[1].image} title={about[1].title} description={about[1].description} />
