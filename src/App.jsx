@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Ad />
+      {/* <Ad /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/pricing' element={<Pricing />} />

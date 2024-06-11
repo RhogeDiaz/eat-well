@@ -5,7 +5,7 @@ import { MdOutlineLocalDining } from "react-icons/md";
 const Navbar = () => {
     const [isClicked, setIsClicked] = useState(false)
     return (
-        <div className='border-b md:px-12'>
+        <div className='border-b md:px-12 bg-[var(--secondary)] text-white fixed w-full'>
             <div className='flex justify-between p-6 items-center '>
                 <a href='/' className='flex items-center gap-2'>
                     <MdOutlineLocalDining className=' scale-150' />
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <ul className='hidden gap-12 items-center p-4 md:flex'>
                     <li><a href="/pricing">Pricing</a></li>
                     <li><a href="/login">Login</a></li>
-                    <li className='bg-[var(--secondary)] w-full text-center p-2 rounded-xl my-[-.5rem]'><a href="/signup">Sign up</a></li>
+                    <li className='bg-[var(--primary)] w-full text-center p-2 rounded-xl my-[-.5rem] text-black'><a href="/signup">Sign up</a></li>
                 </ul>
             </div>
             <div className={`transition-all duration-200 ease-in-out transform ${isClicked ? 'translate-y-0 opacity-100 h-auto' : '-translate-y-full opacity-0 h-0'}`}>

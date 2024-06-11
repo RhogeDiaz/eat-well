@@ -1,7 +1,7 @@
 
 const Hero = ({ header, text }) => {
     return (
-        <div className="flex flex-col items-center gap-4 p-4">
+        <div className="flex flex-col items-center gap-4 p-4 mt-32">
             <h1 className="font-bold text-2xl">{header}</h1>
             <p className="text-center w-11/12">{text}</p>
         </div>

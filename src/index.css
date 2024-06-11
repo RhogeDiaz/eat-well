@@ -4,13 +4,13 @@
 
 @layer components {
     .button {
-        @apply transition-all font-bold bg-transparent border rounded-2xl border-solid py-4 px-8 hover:bg-[#467399];
+        @apply transition-all font-bold bg-transparent border rounded-2xl border-black border-solid py-4 px-8 hover:bg-[#467399];
     }
     .navbar-button {
-        @apply aspect-video w-12 border-none rounded-lg cursor-pointer transition-all flex justify-center items-center active:scale-90 bg-[var(--secondary)] hover:bg-white;
+        @apply aspect-video w-12 border-none rounded-lg cursor-pointer transition-all flex justify-center items-center active:scale-90 bg-[var(--primary)] hover:bg-[var(--secondary)];
     }
     .navbar-button-icon {
-        @apply text-white transition-all  group-hover:text-black;
+        @apply text-black transition-all  group-hover:text-white;
     }
 }
 
@@ -31,9 +31,9 @@
     --fs-500: 1rem;
     --fs-700: 1.25rem;
     --fs-900: 1.5rem;
-    --primary: #213547;
-    --secondary: #314f6a;
-    --accent: #ffffff;
+    --primary: #edefeb;
+    --secondary: #000;
+    --accent: #000;
 }
 
 /* @media (prefers-color-scheme: light) {
